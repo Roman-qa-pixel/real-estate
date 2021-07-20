@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Contact Us</title>
+    <link rel="stylesheet" href="styles.css">
+  </head>
+  <body>
+    <div class="main2">
+      <div class="navbar">
+        <img src="images/logo.png" class="logo" width="210" height="90">
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="offer.html">Offer</a></li>
+        <li><a href="management.html">Management</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+      </div>
+      <div class="container">
+       <form action="action_page.php">
+
+         <label for="fname">First Name</label></br>
+         <input type="text" id="fname" name="firstname" placeholder="Your name.."></br>
+
+         <label for="lname">Last Name</label></br>
+         <input type="text" id="lname" name="lastname" placeholder="Your last name.."></br>
+
+         <label for="country">Country</label></br>
+         <select id="country" name="country"></br>
+           <option value="australia">Australia</option>
+           <option value="canada">Canada</option>
+           <option value="usa">USA</option>
+         </select>
+
+         <label for="subject">Subject</label></br>
+         <textarea id="subject" name="subject" placeholder="Write something.."></textarea></br>
+
+         <input type="submit" value="Submit">
+
+       </form>
+     </div>
+      </div>
